@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>รายการสินค้า</h1>
-    <table border="1">
+    <table border="1" align="center" cellpadding="10">
         <thead>
             <th>รหัสสินค้า</th>
             <th>ภาพสินค้า</th>
@@ -15,19 +15,19 @@
             <th>ราคา</th>
             <th>ดำเนินการ</th>
         </thead>
-        <tbody>
-            <tr>
-                <td>P001</td>
-                <td><img src="https://media.istockphoto.com/photos/papaya-salad-and-thai-food-picture-id691524124?b=1&k=6&m=691524124&s=170667a&w=0&h=KMf6M8ijuSc2znhvvs3pExsW27nYq2uQoilg73nqx0g=" width="180px" height="120px"></td>
+        <tbody align="center">
+            <tr bgcolor="yellow">
+                <td align="center">P001</td>
+                <td><img src="https://media.istockphoto.com/photos/papaya-salad-and-thai-food-picture-id691524124?b=1&k=6&m=691524124&s=170667a&w=0&h=KMf6M8ijuSc2znhvvs3pExsW27nYq2uQoilg73nqx0g=" width="50px" height="50px"></td>
                 <td>ส้มตำไท</td>
-                <td>50 บาท</td>
+                <td bgcolor="red">50 บาท</td>
                 <td>
                     <a href="#">สั่งซื้อ</a>
                 </td>
             </tr>
-            <tr>
+            <tr bgcolor="green">
                 <td>P002</td>
-                <td><img src="https://media.istockphoto.com/photos/thai-food-spicy-minced-pork-salad-picture-id1203106468?b=1&k=6&m=1203106468&s=170667a&w=0&h=GYWgkxgXgRwLsdauYXx6utiUm0vUN1xn421GiW40NcI=" alt="ลาบหมู" width="180px" height="120px"></td>
+                <td><img src="https://media.istockphoto.com/photos/thai-food-spicy-minced-pork-salad-picture-id1203106468?b=1&k=6&m=1203106468&s=170667a&w=0&h=GYWgkxgXgRwLsdauYXx6utiUm0vUN1xn421GiW40NcI=" alt="ลาบหมู" width="50px" height="50px"></td>
                 <td>ลาบหมู</td>
                 <td>60 บาท</td>
                 <td>
@@ -35,10 +35,9 @@
                 </td>
             </tr>
             <tfoot>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>ราคารวม 110 บาท</td>
+                <tr align="right">
+                    <td colspan="5"><strong>ราคารวม : 110 บาท</strong></td>
+                </tr>
             </tfoot>
         </tbody>
     </table>
